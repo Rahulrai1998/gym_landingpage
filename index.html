@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="le-edge">
+    <title>Gym website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        background: url('bg_img.jpg');
+        margin: 0px;
+        padding: 0px;
+        height: 1000px;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+   
+
+    .left {
+
+        position: absolute;
+        left: 50px;
+        top: 7px;
+        display: inline-block;
+
+    }
+
+    .mid {
+        /*border: 2px solid green;*/
+        margin: 18px auto;
+        width: 43%;
+
+
+    }
+
+    .right {
+        display: inline-block;
+
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+        list-style: none;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        padding: 34px 23px;
+        text-decoration: none;
+        color: white;
+        width: 50px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: bisque;
+    }
+
+    .left img {
+        width: 120px;
+        filter: invert(100%);
+    }
+
+    .left {
+        text-align: center;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left div {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        font-size: 17px;
+    }
+
+    .btn:hover {
+        color: rgb(177, 206, 230);
+        cursor: pointer;
+    }
+
+    .container {
+        
+        font-family: 'Baloo Bhai 2', cursive;
+        width: 26%;
+        border: 1px solid white;
+        margin: 120px 60px;
+        padding: 75px;
+        border-radius: 8px;
+    }
+
+    .form_group input {
+        display: block;
+        width: 85%;
+        border-radius: 8px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 5px;
+        border: none;
+        font-size: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 5px auto;
+        width: 345px;
+        cursor: pointer;
+        padding: 8px;
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        font-size: 20px;
+        border: 1px solid white;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="logo">
+            <div>Dumblers</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Fitness test</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Do join us</h1>
+        <form action="new.js">
+            <div class="form_group">
+                <input type="text" placeholder="name">
+            </div>
+            <div class="form_group">
+                <input type="text" c placeholder="email">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="mobile">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="address">
+            </div>
+
+        </form>
+        <button>Submit</button>
+    </div>
+
+
+</body>
+
+</html>
